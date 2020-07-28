@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('timeline-component', require('./components/tweet/Timeline.vue').default);
+Vue.component('post-component', require('./components/tweet/Post.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
