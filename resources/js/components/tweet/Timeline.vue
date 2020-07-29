@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-header">Timeline</div>
         <div class="card-body">
-            <postComponent></postComponent>
+            <postComponent :tweets="tweets"></postComponent>
 
             <hr>
 
